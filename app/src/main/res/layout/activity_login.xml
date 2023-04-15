@@ -95,7 +95,7 @@
                 android:minHeight="71dp"
                 android:paddingHorizontal="33dp"
                 android:drawablePadding="22dp"
-                android:textColor="@color/white"
+                android:textColor="@color/darkblue"
 
                 android:textColorHint="@color/darkblue"
                 android:textSize="16sp"
@@ -106,12 +106,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
 
-                android:autofillHints="emailAddress"
+                android:autofillHints="password"
                 android:hint="@string/login_pass_hint"
                 android:background="@drawable/rounded_field2"
                 android:drawableStart="@drawable/login_pass_icon"
 
-                android:inputType="textEmailAddress"
+                android:inputType="textPassword"
                 android:minHeight="71dp"
                 android:paddingHorizontal="33dp"
                 android:drawablePadding="22dp"

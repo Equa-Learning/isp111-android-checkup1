@@ -79,7 +79,7 @@
                 android:minHeight="71dp"
                 android:paddingHorizontal="33dp"
                 android:drawablePadding="22dp"
-                android:textColor="@color/white"
+                android:textColor="@color/darkblue"
 
                 android:textColorHint="@color/darkblue"
                 android:textSize="16sp"
@@ -92,7 +92,7 @@
                 android:minHeight="60dp"
                 android:layout_marginTop="34dp"
 
-                android:text="@string/recovery_action_button"
+                android:text="@string/recover_action_button"
                 android:textColor="@color/darkblue"
                 android:textAllCaps="false"
                 android:fontFamily="@font/opensans_bold"
@@ -123,7 +123,7 @@
                 android:maxLines="1"
                 android:ellipsize="marquee"
                 android:textSize="17sp"
-                android:text="@string/reсovery_bottom_link"
+                android:text="@string/reсover_bottom_link"
                 android:textColor="@color/white"
                 android:fontFamily="@font/droidsans"
                 android:onClick="toLogin"

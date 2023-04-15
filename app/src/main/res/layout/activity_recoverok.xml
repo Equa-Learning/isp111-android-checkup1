@@ -61,7 +61,7 @@
                 android:textSize="24sp"
                 android:text="@string/recoverok_status_text"
                 android:textColor="@color/white"
-                android:fontFamily="@font/droidsans"
+                android:fontFamily="@font/opensans_bold"
                 />
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/status"
