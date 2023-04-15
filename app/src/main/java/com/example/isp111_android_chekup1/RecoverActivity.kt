@@ -5,20 +5,22 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class LoginActivity : AppCompatActivity() {
+class RecoverActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_login)
+        setContentView(R.layout.activity_recover)
     }
 
-    fun doLogin(view: View) {
-        val intent = Intent(this@LoginActivity, PatchActivity::class.java)
+    fun doRecover(view: View) {
+        val intent = Intent(this@RecoverActivity, RecoverOkActivity::class.java)
         startActivity(intent)
         finish()
     }
-    fun toRecoverPassword(view: View) {
-        val intent = Intent(this@LoginActivity, RecoverActivity::class.java)
+    fun toLogin(view: View) {
+        val intent = Intent(this@RecoverActivity, LoginActivity::class.java)
         startActivity(intent)
         finish()
     }
+
+
 }

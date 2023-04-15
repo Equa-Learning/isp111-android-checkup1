@@ -12,11 +12,15 @@ class RegActivity : AppCompatActivity() {
     }
 
     fun toMain(view: View) {
-        var intent = Intent(this@RegActivity, MainActivity::class.java)
+        val intent = Intent(this@RegActivity, MainActivity::class.java)
         startActivity(intent)
         finish()
     }
 
-    fun doRegistration(view: View) {}
+    fun doRegistration(view: View) {
+        val intent = Intent(this@RegActivity, PatchActivity::class.java)
+        startActivity(intent)
+        finish()
+    }
 
 }

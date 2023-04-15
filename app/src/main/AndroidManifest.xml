@@ -16,23 +16,27 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false">
-
-        </activity>
+            android:exported="false" />
         <activity
             android:name=".LoginActivity"
-            android:exported="false">
-        </activity>
+            android:exported="false" />
         <activity
-        android:name=".RegActivity"
-        android:exported="false">
-    </activity>
+            android:name=".RegActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PatchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecoverActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecoverOkActivity"
+            android:exported="false" />
     </application>
 
 </manifest>
