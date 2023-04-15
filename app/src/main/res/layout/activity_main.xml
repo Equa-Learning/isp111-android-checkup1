@@ -35,17 +35,17 @@
 
             >
 
-            <TextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/welcome"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
-                android:gravity="center"
                 android:layout_marginTop="65dp"
+                android:gravity="center"
 
                 android:text="@string/main_welcome_text"
                 android:textColor="#FEFEFE"
                 android:textSize="32sp"
+                android:fontFamily="@font/opensans_bold"
                 />
 
             <ImageView
@@ -67,14 +67,14 @@
 
             <Space
                 android:layout_width="match_parent"
-                android:layout_height="17dp"
+                android:layout_height="20dp"
                 android:layout_weight="@integer/material_motion_duration_long_1"
                 />
             <LinearLayout
                 android:id="@+id/signin_formbuttons"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="37dp"
+                android:layout_marginBottom="40dp"
 
                 android:layout_gravity="bottom"
 
@@ -88,38 +88,34 @@
                 app:layout_constraintWidth_max="450dp"
                 >
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/button_enter"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
 
-                    android:minHeight="82dp"
-                    android:layout_marginBottom="10dp"
+                    android:minHeight="76dp"
+                    android:layout_marginBottom="16dp"
 
                     android:text="@string/main_button_enter"
                     android:textColor="@color/white"
                     android:textAllCaps="false"
 
-                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
-                    android:drawableLeft="@drawable/person_24px_1"
+                    android:drawableStart="@drawable/person_24px_1"
+                    android:background="@drawable/rounded_button1"
                     android:gravity="start|center_vertical"
-                    app:iconPadding="20dp"
+                    android:drawablePadding="18dp"
 
                     android:autoSizeTextType="uniform"
                     android:autoSizeMaxTextSize="16sp"
                     android:autoSizeMinTextSize="10sp"
                     android:elegantTextHeight="true"
 
-                    android:paddingLeft="30dp"
-                    android:paddingRight="30dp"
-
-                    app:cornerRadius="50dp"
-                    app:strokeColor="@color/white"
-                    app:strokeWidth="2dp"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
 
                     android:onClick="toLogin"
                     />
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/button_registration"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -130,22 +126,18 @@
                     android:textColor="@color/white"
                     android:textAllCaps="false"
 
-                    style="@style/Widget.Material3.Button.OutlinedButton.Icon"
-                    android:drawableLeft="@drawable/how_to_reg_24px_1"
+                    android:drawableStart="@drawable/how_to_reg_24px_1"
+                    android:background="@drawable/rounded_button2"
                     android:gravity="start|center_vertical"
-                    app:iconPadding="20dp"
+                    android:drawablePadding="18dp"
 
                     android:autoSizeTextType="uniform"
                     android:autoSizeMaxTextSize="16sp"
                     android:autoSizeMinTextSize="10sp"
                     android:elegantTextHeight="true"
 
-                    android:paddingLeft="30dp"
-                    android:paddingRight="30dp"
-
-                    app:cornerRadius="50dp"
-                    android:backgroundTint="#A987F0"
-                    app:strokeWidth="0dp"
+                    android:paddingLeft="32dp"
+                    android:paddingRight="32dp"
 
                     android:onClick="toRegistragion"
                     />

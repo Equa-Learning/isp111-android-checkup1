@@ -12,15 +12,6 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">@color/statusbar</item>
         <!-- Customize your theme here. -->
-        <item name="colorSurface">@color/white</item>
-        <item name="colorOnSurface">#212121</item>
-        <item name="android:colorBackground">@color/background</item>
-        <item name="colorOnBackground">#212121</item>
-
-        <item name="fontFamily">@font/poppins_regular</item>
-        <item name="android:fontFamily">@font/poppins_regular</item>
-
     </style>
     <color name="background">@color/white</color>
-    <dimen name="buttonBigRadius">2dp</dimen>
 </resources>
