@@ -10,13 +10,10 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
     }
 
-    fun toLogin(view: View) {
+    fun doLogin(view: View) {
 
     }
-    fun toRegistragion(view: View) {
+    fun toRecoverPassword(view: View) {
 
     }
-
-    fun toRecoverPassword(view: View) {}
-    fun doLogin(view: View) {}
 }

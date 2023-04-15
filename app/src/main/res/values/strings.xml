@@ -4,11 +4,17 @@
     <string name="main_logo_description">Lion Games</string>
     <string name="main_welcome_text">Добро пожаловать!</string>
     <string name="login_welcome_text">С возвращением!</string>
+    <string name="reg_welcome_text">Создайте аккаунт</string>
     <string name="main_button_enter">Войдите в аккаунт</string>
     <string name="main_button_regitration">Зарегистрироваться</string>
     <string name="login_title">Войти</string>
+    <string name="reg_title">Зарегистрируйтесь</string>
     <string name="login_login_hint">Логин</string>
+    <string name="reg_login_hint">Логин или email</string>
     <string name="login_pass_hint">Пароль</string>
+    <string name="reg_pass_hint">Пароль</string>
+    <string name="reg_bottom_text">Уже есть аккаунт?</string>
+    <string name="reg_bottom_link">Вернуться назад</string>
     <string name="login_action_button">Продолжить</string>
     <string name="login_bottom_text"><![CDATA[Забыли пароль? >]]></string>
     <string name="login_bottom_link">Восстановить пароль</string>

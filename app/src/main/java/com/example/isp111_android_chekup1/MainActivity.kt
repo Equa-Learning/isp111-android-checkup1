@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
         finish()
     }
     fun toRegistragion(view: View) {
-
+        var intent = Intent(this@MainActivity, RegActivity::class.java)
+        startActivity(intent)
+        finish()
     }
 }

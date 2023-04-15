@@ -28,8 +28,11 @@
         <activity
             android:name=".LoginActivity"
             android:exported="false">
-
         </activity>
+        <activity
+        android:name=".RegActivity"
+        android:exported="false">
+    </activity>
     </application>
 
 </manifest>
