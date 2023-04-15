@@ -162,6 +162,7 @@
                 android:layout_marginBottom="62dp"
 
                 android:layout_gravity="bottom"
+                android:gravity="center"
 
                 android:orientation="horizontal"
                 app:layout_constrainedWidth="true"
