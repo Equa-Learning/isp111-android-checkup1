@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lion Games</string>
+    <string name="loading_logo_description">Lion Games</string>
+    <string name="main_logo_description">Lion Games</string>
+    <string name="main_welcome_text">Добро пожаловать!</string>
+    <string name="main_button_enter">Войдите в аккаунт</string>
+    <string name="main_button_regitration">Зарегистрироваться</string>
+</resources>

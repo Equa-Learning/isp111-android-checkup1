@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="statusbar">#FF6200EE</color>
+    <color name="bg_loading">#FF5F4D9F</color>
+    <color name="bg_main">#FF7C59B5</color>
+    <color name="bg_recover">#FF25133B</color>
+
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorOutline">#FFFFFFFF</color>
+
+</resources>
